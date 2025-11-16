@@ -27,6 +27,10 @@ public class SaldoConta {
             System.out.println("Valor Atual em Conta R$" + SaldoTotal);
 
         }
+        else if (SacarValor >= 5000){
+            System.out.println("Valor Limite para Saque é R$ 5000.00 por dia");
+
+        }
         else {
             System.out.println("Valor que deseja sacar é insuficiênte");
             System.out.println("Valor Atual R$" + SaldoTotal);
