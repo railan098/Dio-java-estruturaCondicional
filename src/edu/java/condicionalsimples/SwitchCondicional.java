@@ -1,5 +1,5 @@
 package edu.java.condicionalsimples;
-
+//x Switch Da Estrutura condicional
 import java.util.Scanner;
 
 public class SwitchCondicional {
