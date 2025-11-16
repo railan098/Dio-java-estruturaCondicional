@@ -1,5 +1,5 @@
 package edu.java.condicionalsimples;
-
+//x Saldo Conta estrurura condicional 
 import java.util.Scanner;
 
 public class SaldoConta {
