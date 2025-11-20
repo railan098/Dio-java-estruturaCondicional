@@ -17,13 +17,33 @@ public class Main {
             // vvvvv A CORREÇÃO ESTÁ AQUI vvvvv
             scanner.nextLine(); // Esta linha "limpa" o Enter que sobrou do nextInt()
             // ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-            if (idade >= 18) {
+            if (idade >= 200){
+                System.out.println("--------------------");
+                System.out.println("Olá, " + nome + "!");
+                System.out.println("Você digitou " + idade + " anos.");
+                System.out.println("Tem certeza? Você deve ser um vampiro ou imortal!");
+            }
+            else if (idade >= 100) {
+                System.out.println("--------------------");
+                System.out.println("Olá, " + nome + "!");
+                System.out.println("Você tem " + idade + " anos.");
+                System.out.println("Acesso Permitido com Honras! !");
+            } else if (idade == 20) {
+                System.out.println("--------------------");
+                System.out.println("Olá, " + nome + "!");
+                System.out.println("Você tem " + idade + " anos.");
+                System.out.println("PARABÉNS! Você tem exatos 20 anos!");
+                System.out.println("Acesso Permitido !");
+            }
+            else if (idade >= 18) {
                 System.out.println("--------------------");
                 System.out.println("Olá, " + nome + "!");
                 System.out.println("Você tem " + idade + " anos.");
                 System.out.println("Acesso Permitido !");
-            } else {
+            }
+
+
+            else {
                 System.out.println("--------------------");
                 System.out.println("Olá, " + nome + "!");
                 System.out.println("Você tem " + idade + " anos.");
